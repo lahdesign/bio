@@ -1,0 +1,23 @@
+.page-container{
+    width:100%;
+    /* background-image: */
+}
+.icon-container{
+    width:80%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap:10px;
+}
+.link-box{
+    background-color:white;
+    width:80%;
+    margin:0 auto;
+    border-radius: 10px;
+    padding:2%;
+    
+}
+svg:hover{
+    fill:pink;
+}
